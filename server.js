@@ -11,6 +11,9 @@ app.use(express.json())
 const userController = require('./routes/user')
 const postController = require('./routes/post')
 const reviewpostController = require('./routes/reviewpost')
+const PORT = process.env.PORT || 3001;
+
+const env = process.env.NODE_ENV || "production";
 
 
 app.use('/user',userController )
@@ -22,8 +25,6 @@ app.use('/reviewpost', reviewpostController)
 
 
 
-app.listen({ port: 6700 }, async () =>{
-    console.log('Server up on http://localhost:6700')
-    console.log('Database synced!')
-})
-
+app.listen(PORT, () => {
+    console.log(`Server listening on ${PORT}`);
+  });
