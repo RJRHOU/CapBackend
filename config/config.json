@@ -19,6 +19,7 @@
     "database": "d6uejedafce0uh",
     "host": "ec2-107-22-122-106.compute-1.amazonaws.com",
     "dialectOptions": {
+      "dialect": "postgres",
       "ssl": {
         "require": true,
         "rejectUnauthorized": false
