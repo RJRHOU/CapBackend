@@ -18,9 +18,9 @@ const env = process.env.NODE_ENV || "production";
 const cors = require('cors');
 app.use(cors());
 
-app.use('/user',userController )
-app.use('/post', postController)
-app.use('/reviewpost', reviewpostController)
+// app.use('/user',userController )
+// app.use('/post', postController)
+// app.use('/reviewpost', reviewpostController)
 
 
 
