@@ -15,6 +15,8 @@ const PORT = process.env.PORT || 3001;
 
 const env = process.env.NODE_ENV || "production";
 
+const cors = require('cors');
+app.use(cors());
 
 app.use('/user',userController )
 app.use('/post', postController)
