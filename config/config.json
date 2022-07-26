@@ -1,11 +1,17 @@
 {
   "development": {
-    "username": "victorbrew",
-    "password": null,
-    "database": "Capstone_db",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
+    "username": "zweynnpjrkgeye",
+    "password": "0a794d16702c224115fedc6ab49d4f1ac7fd422f2cf75fc545ab43ce3327e853",
+    "database": "da2lt5b4hv1hf1",
+    "host": "ec2-54-152-28-9.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+        }
+      }
+},
   "test": {
     "username": "root",
     "password": null,
@@ -14,10 +20,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "oliqzucevypavu",
-    "password": "bc72aecd2113081a86458bd7d677a35646866ce33e783b6a24ddda1132298de5",
-    "database": "d6uejedafce0uh",
-    "host": "ec2-107-22-122-106.compute-1.amazonaws.com",
+    "username": "zweynnpjrkgeye",
+    "password": "0a794d16702c224115fedc6ab49d4f1ac7fd422f2cf75fc545ab43ce3327e853",
+    "database": "da2lt5b4hv1hf1",
+    "host": "ec2-54-152-28-9.compute-1.amazonaws.com",
     "dialect": "postgres",
     "dialectOptions": {
         "ssl": {
